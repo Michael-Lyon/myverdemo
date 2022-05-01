@@ -131,3 +131,5 @@ HASHID_FIELD_ENABLE_HASHID_OBJECT = False
 # environ
 env = environ.Env()
 environ.Env.read_env()
+
+django_heroku.settings(locals())
